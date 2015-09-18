@@ -1,0 +1,18 @@
+{
+  "name": "mathrioshka",
+  "version": "1.0.0",
+  "description": "Test job",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vanowski/msk-data.git"
+  },
+  "author": "Ivan Baranov",
+  "dependencies": {
+    "gulp": "latest",
+    "gulp-watch": "latest",
+    "main-bower-files": "latest",
+    "gulp-nodemon": "latest",
+    "browser-sync": "latest",
+    "express": "latest"
+  }
+}

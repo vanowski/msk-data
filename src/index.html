@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Moscow Data</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="map"></div>
+        <div class="histogram"></div>
+        <script>
+            function initMap() {
+                document.dispatchEvent(new Event('mapLoaded'));
+            }
+        </script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTkCkDygPkl8Vi8XKLHoEDjU5NTPeVgNY&callback=initMap">
+        </script>
+        <script src="lib/jquery.min.js"></script>
+        <script src="lib/underscore.js"></script>
+        <script src="lib/backbone-min.js"></script>
+        <script src="lib/d3.min.js"></script>
+        <script src="js/Model.js"></script>
+        <script src="js/MapView.js"></script>
+        <script src="js/HistogramView.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "mathrioshka",
+  "dependencies": {
+    "jquery": "latest",
+    "d3": "latest",
+    "backbone": "latest"
+  },
+  "overrides": {
+    "d3": {
+      "main": "d3.min.js"
+    },
+    "jquery": {
+      "main": "dist/jquery.min.js"
+    },
+    "backbone": {
+      "main": "backbone-min.js"
+    }
+  }
+}
