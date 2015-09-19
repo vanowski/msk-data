@@ -12,4 +12,4 @@ gulp
 
 App will be accessible either on `localhost:3000` or `localhost:9000`.
 
-!https://www.dropbox.com/s/61vwtfjtqpp8htn/Screen%20Shot%202015-09-19%20at%2018.11.49.png
+![Screenshot](https://www.dropbox.com/s/61vwtfjtqpp8htn/Screen%20Shot%202015-09-19%20at%2018.11.49.png)
